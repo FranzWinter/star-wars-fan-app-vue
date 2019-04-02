@@ -1,0 +1,37 @@
+@import "fonts";
+@import "~vue-material/dist/theme/engine";
+@include md-register-theme("default", (
+  primary: md-get-palette-color(gray, 600), // The primary color of your application
+  accent: md-get-palette-color(red, 800), // The accent or secondary color
+  theme: light
+));
+@import "~vue-material/dist/theme/all"; // Apply the theme
+.md-card {
+    margin-bottom: 10px;
+}
+.md-layout .md-card .md-card-actions {
+    padding: 16px;
+    padding-top: 0;
+}
+form .md-field .md-textarea {
+    height: 150px;
+}
+.no-margin-left {
+    margin-left: 0;
+}
+.no-margin-top {
+    margin-top: 0;
+}
+ul {
+    list-style-type: square;
+    padding: 0 16px 0 16px;
+}
+h1 {
+    text-align: center;
+}
+body {
+    min-height: 0;
+}
+#app {
+    max-width: 99vw;
+}
