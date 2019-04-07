@@ -14,8 +14,8 @@
                  {{ review.review }} 
             </div>
             <div class="md-card-actions">
-                <md-button class="md-raised md-primary" type="button" v-on:click='showEditForm'>EDIT <i class="fas fa-edit"></i></md-button>
-                <md-button class="md-raised md-accent" type="button" v-on:click='deleteReview(review)'>DELETE <i class="fas fa-times"></i></md-button>
+                <md-button class="md-raised md-primary" type="button" v-on:click='showEditForm'>EDIT </md-button>
+                <md-button class="md-raised md-accent" type="button" v-on:click='deleteReview(review)'>DELETE </md-button>
             </div>
         </div>
         <!-- part used to show review -->

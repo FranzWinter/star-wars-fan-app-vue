@@ -1,9 +1,5 @@
 # simple-star-wars-fan-app
-
-It is my first Vue.js project   
-
-For this project I used my Webpack configuration created for use with React and then added Vue and changed some configs. This mean in some cases something can work... different ;)     
-
+  
 ## Installation
 
 1. Clone this repository in directory you choose  
