@@ -5,7 +5,7 @@
 1. Clone this repository in directory you choose  
 ```git clone```
 2. Change working directory into one created by git  
-```cd simple-react-webpack-boilerplate```
+```cd star-wars-fan-app-vue```
 3. Install all modules and dependencies using npm  
 ```npm install```
 

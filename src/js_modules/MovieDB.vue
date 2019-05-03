@@ -50,6 +50,7 @@ export default {
     },
     computed: {
         fiteredMovies() {
+            // api return date as string, so it need to be sort as string
             if (this.movieDataSortById === false) {
                 this.movieData.sort(function (a, b) {
                     var a = a.release_date;
